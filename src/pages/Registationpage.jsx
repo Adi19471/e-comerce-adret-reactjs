@@ -15,8 +15,10 @@ const Registationpage = () => {
             registrationForm.map((item, index) => {
               return ( 
                 <>
-                  <Label htmlFor="">{item.name}</Label>
+      <div key={index}>
+      <Label htmlFor="">{item.name}</Label>
                   <Input label={item.label} type={item.type} />
+      </div>
                 </>
               );
             })}
