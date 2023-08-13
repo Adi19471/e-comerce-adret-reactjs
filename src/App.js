@@ -1,13 +1,15 @@
 import React from "react";
+import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Container } from 'reactstrap';
+
+
 
 import { routespage } from "./routes-componnets/routespage";
 
 
 function App() {
   return (
-    <Container>
+   
        <BrowserRouter>
           <Routes>
             {
@@ -17,7 +19,7 @@ function App() {
             }
           </Routes>
         </BrowserRouter>
-    </Container>
+
   );
 }
 
