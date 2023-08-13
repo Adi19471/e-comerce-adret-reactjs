@@ -1,3 +1,3 @@
-import SmartphoneContainers from "./Smartphone.Containers";
+import SmartphoneContainers from "./Productsdata";
 
 export default SmartphoneContainers;

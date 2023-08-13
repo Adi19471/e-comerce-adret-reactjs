@@ -2,7 +2,7 @@
 import Landingpage from "../pages/Landingpage";
 import Registationpage from "../pages/Registationpage";
 
-import SmartphoneContainers from "../components/smartphones/Smartphone.Containers"
+import SmartphoneContainers from "../components/smartphones/Productsdata"
 
 export const routespage = [
   {

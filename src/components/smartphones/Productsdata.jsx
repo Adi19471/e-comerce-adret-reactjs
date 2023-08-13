@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SmartphoneComponents from "./Smartphone.Components";
+import SmartphoneComponents from "./Productcategery";
 import { Container, Row } from "reactstrap";
 
 import { useParams } from "react-router-dom";

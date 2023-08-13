@@ -1,5 +1,17 @@
-&{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.itemlink{
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+}
+
+.itemlink:hover{
+    text-align: justify;
+    font-size: 15px;
+    color: rgb(224, 123, 55);
 }

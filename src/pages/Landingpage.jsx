@@ -30,7 +30,7 @@ const Landingpage = () => {
         <hr />
 
         <Row>
-          <h2>Categeres</h2>
+          <h5 className="text-center text-info text-bg-dark">Lifestyles :-All Categery Inforamtion</h5>
           {categery &&
             categery.length > 0 &&
             categery.map((item, index) => {
@@ -39,7 +39,7 @@ const Landingpage = () => {
                   <Col md="4" key={index}>
                     <Link to={"products/"+ item}>
                   
-                      <h4>{item}</h4>
+                      <h4 className="itemlink">{item.toUpperCase()}</h4>
                     </Link>
                   </Col>
                 </>
